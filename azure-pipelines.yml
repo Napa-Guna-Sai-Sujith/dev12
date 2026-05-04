@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: 'MyPool'   # <-- replace with your actual pool name
 
 steps:
 - script: echo "Installing dependencies"
