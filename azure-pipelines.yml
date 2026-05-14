@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  name: 'MyPool'   # <-- replace with your actual pool name
+  name: 'MyPool'
 
 steps:
 - script: echo "Installing dependencies"
